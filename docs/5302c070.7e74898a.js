@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[8],{110:function(s){s.exports=JSON.parse('{"allTagsPath":"/Tests/blog/tags","slug":"psp-ufu","name":"psp-ufu","count":1,"permalink":"/Tests/blog/tags/psp-ufu"}')}}]);
