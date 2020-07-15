@@ -1,6 +1,7 @@
 #galleria-loader{height:1px!important}
 
 .galleria{
+	height:320px;
     position: absolute;
     top: 10px;
     bottom: 60px;
