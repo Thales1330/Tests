@@ -17,6 +17,7 @@
 <style type="text/css">
 .galleria {
  position: absolute;
+ height:467px
  top: 10px;
  bottom: 60px;
  left: 10px;
@@ -37,6 +38,7 @@
         <script>
             (function() {
                 Galleria.loadTheme('https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.7/themes/classic/galleria.classic.min.js');
+				Galleria.configure({ wait: true });
                 Galleria.run('.galleria');
             }());
         </script>
