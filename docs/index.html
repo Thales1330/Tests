@@ -13,7 +13,7 @@
 
 <link type="text/css" rel="stylesheet" href="/Tests/galleria/themes/classic/galleria.classic.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
-<script src="/Tests/galleria.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.7/galleria.min.js"></script>
 
 </head>
 <body>
@@ -27,8 +27,24 @@
         </div>
         <script>
 			(function() {
-				Galleria.loadTheme('/Tests/galleria/themes/classic/galleria.classic.js');
-				Galleria.configure({ wait: true });
+				Galleria.loadTheme('https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.7/themes/classic/galleria.classic.min.js');
+                Galleria.run('.galleria');
+            }());
+        </script>
+    </body>
+</html>
+Beginners Guide
+A basic HTML template
+Installing jQuery
+Installing Galleria
+Setting dimensions
+Adding images
+Load a theme
+Activate the gallery
+The complete code example:
+CDN
+Search docs
+
 				Galleria.run('.galleria');
 			 }());
         </script>
