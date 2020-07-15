@@ -35,10 +35,11 @@
             <img src="ss_1.png">
         </div>
         <script>
+		Galleria.loadTheme('https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.7/themes/classic/galleria.classic.min.js');
+				Galleria.configure({ wait: true });
 		$( document ).ready(function() {
     (function() {
-                Galleria.loadTheme('https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.7/themes/classic/galleria.classic.min.js');
-				Galleria.configure({ wait: true });
+                
                 Galleria.run('.galleria');
             }());
 });
