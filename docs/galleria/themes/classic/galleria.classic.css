@@ -1,13 +1,11 @@
 #galleria-loader{height:1px!important}
 
 .galleria{
-	height:320px;
-    position: absolute;
-    top: 10px;
-    bottom: 60px;
-    left: 10px;
-    right: 10px;
-    overflow:hidden;
+	width: 800px;
+	height: 600px;
+	background: #000;
+	position: relative;
+	overflow:hidden;
 }
 
 .galleria-theme-classic {
