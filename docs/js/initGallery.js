@@ -16,7 +16,7 @@ $(function () {
   // Initialize the Gallery as video carousel:
   // eslint-disable-next-line new-cap
   blueimp.Gallery(document.getElementById('links').getElementsByTagName('a'), {
-    container: '#blueimp-gallery-carousel',
+    container: '#__docusaurus > #blueimp-gallery-carousel',
     carousel: true
   })
 })
